@@ -1,10 +1,12 @@
 import './App.css'
-import Header from './components/Header'
+// import Header from './components/Header'
+import Service from './components/Service';
 
 function App() {
   return (
     <div>
-      <Header/>
+      {/* <Header/> */}
+      <Service/>
     </div>
   )
 }
