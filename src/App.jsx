@@ -3,6 +3,8 @@ import Experience from './components/Experience';
 import Header from './components/Header'
 import Project from './components/Project';
 
+// import Header from './components/Header'
+import Service from './components/Service';
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
       <Header/>
       <Experience />
       <Project />
+      {/* <Header/> */}
+      <Service/>
     </div>
   )
 }
