@@ -1,11 +1,12 @@
 import './App.css'
-import Header from './components/Header'
-import Display_counter from './components/Display_counter';
+// import Header from './components/Header'
+import Service from './components/Service';
+
 function App() {
   return (
     <div>
-      <Header/>
-      
+      {/* <Header/> */}
+      <Service/>
     </div>
   )
 }
