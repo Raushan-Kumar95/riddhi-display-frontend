@@ -6,6 +6,9 @@ import Service from '../components/home/Service';
 import Ideology from '../components/home/Ideology';
 import Project from '../components/home/Project';
 import Footer from '../components/footer/Footer';
+import CallToMain from '../components/home/CallToMain';
+import Subscribe from '../components/home/Subscribe';
+
 
 const HomePage = () => {
   return (
@@ -16,6 +19,8 @@ const HomePage = () => {
         <Service/>
         <Ideology/>
         <Project/>
+        <CallToMain/>
+        <Subscribe/>
         <Footer/>
     </>
   )
