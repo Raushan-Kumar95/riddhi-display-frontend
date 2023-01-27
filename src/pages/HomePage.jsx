@@ -6,6 +6,7 @@ import Service from '../components/home/Service';
 import Ideology from '../components/home/Ideology';
 import Project from '../components/home/Project';
 import Footer from '../components/footer/Footer';
+import Kitchendreams from "../components/home/kitchendreams"
 
 const HomePage = () => {
   return (
@@ -14,6 +15,7 @@ const HomePage = () => {
         <Display_counter/>
         <Experience/>
         <Service/>
+        <Kitchendreams />
         <Ideology/>
         <Project/>
         <Footer/>

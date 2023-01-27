@@ -1,11 +1,16 @@
 import './App.css'
-import { Routes, Route } from "react-router-dom";
+import Greatclient from './components/home/Greatclient';
+
+
 import HomePage from './pages/HomePage';
+
 
 function App() {
   return (
     <>
-      <HomePage/>
+      {/* <HomePage/> */}
+      <Greatclient />
+      
     </>
   )
 }
