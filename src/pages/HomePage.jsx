@@ -12,6 +12,7 @@ import Footer from '../components/footer/Footer';
 import CallToMain from '../components/home/CallToMain';
 import Subscribe from '../components/home/Subscribe';
 import Kitchendreams from '../components/home/Kitchendreams';
+import Greatclient from '../components/home/Greatclient'
 
 
 const HomePage = () => {
@@ -27,6 +28,7 @@ const HomePage = () => {
         <SuccessStory/>
         <Present/>
         <Project/>
+        <Greatclient/>
         <CallToMain/>
         <Subscribe/>
         <Footer/>
