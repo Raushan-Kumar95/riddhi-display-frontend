@@ -2,10 +2,19 @@ import React from 'react'
 import HeaderData from './HeaderData.json'
 
 const Navbar = () => {
+
+   function navbarshow(e){
+    let list = document.querySelector('.nav-links')
+
+            e.name === "menu-outline" ?
+                (e.name = "close", list.classList.add('top-[177px]'), list.classList.add('opacity-100')) :
+                (e.name = "menu-outline", list.classList.remove('top-[177px]'), list.classList.remove('opacity-100'))
+   }
+
     return (
         <div>
             {/* Header Top */}
-            <div className='bg-black text-white py-3 px-10 flex flex-row md:justify-between justify-center'>
+            <div className='bg-black text-white py-3 px-10 flex flex-row md:justify-between justify-center '>
 
                 <div className='hidden md:block'>
                     <ul className='flex flex-row text-2xl'>
@@ -33,13 +42,13 @@ const Navbar = () => {
                     <img src="https://www.riddhidisplay.com/wp-content/uploads/2021/04/logo.png" alt="Logo" />
 
                     <div className='py-4 text-3xl md:hidden block'>
-                        <i class="fa-solid fa-bars"></i>
+                        <i class="fa-solid fa-bars" onClick={navbarshow}></i>
                     </div>
 
                 </div>
 
-                <div className='menu'>
-                    <ul className='md:flex md:flex-row flex-col md:text-center font-semibold text-lg text-center md:py-7 py-10'>
+                
+                    <ul className='nav-links md:flex md:flex-row flex-col md:text-center font-semibold text-lg text-center md:py-7 py-10'>
                         {HeaderData.map(nav => {
                             return (
                                 <li className='md:px-5 md:py-1 py-2'>
@@ -48,7 +57,6 @@ const Navbar = () => {
                             )
                         })}
                     </ul>
-                </div>
             </nav>
         </div>
     )

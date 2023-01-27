@@ -1,8 +1,8 @@
 import React from "react";
-import counter_image1 from "../assets/Imageslist/counter.jpg"
-import counter_image2 from "../assets/Imageslist/kitchen.jpg"
-import counter_image3 from "../assets/Imageslist/kitchen-2.jpg"
-import counter_image4 from "../assets/Imageslist/refrigeration.jpg"
+import counter_image1 from "../../assets/Imageslist/counter.jpg"
+import counter_image2 from "../../assets/Imageslist/kitchen.jpg"
+import counter_image3 from "../../assets/Imageslist/kitchen-2.jpg"
+import counter_image4 from "../../assets/Imageslist/refrigeration.jpg"
 
 
 const Display_counter = ()=>{
