@@ -1,24 +1,24 @@
-import React from 'react';
-import Header from '../components/Header';
+import React from 'react'
+import Header from '../components/header/Header';
 import Display_counter from '../components/home/Display_counter';
 import Experience from '../components/home/Experience';
 import Service from '../components/home/Service';
-import Project from '../components/home/Project';
-import Footer from '../components/Footer';
 import Ideology from '../components/home/Ideology';
+import Project from '../components/home/Project';
+import Footer from '../components/footer/Footer';
 
-const Home = () => {
+const HomePage = () => {
   return (
     <>
         <Header/>
         <Display_counter/>
         <Experience/>
         <Service/>
-        <Project/>
         <Ideology/>
+        <Project/>
         <Footer/>
     </>
   )
 }
 
-export default Home
+export default HomePage

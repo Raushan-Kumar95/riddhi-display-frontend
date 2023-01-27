@@ -14,7 +14,7 @@ const Navbar = () => {
     return (
         <div>
             {/* Header Top */}
-            <div className='bg-black text-white py-3 px-10 flex flex-row md:justify-between justify-center'>
+            <div className='bg-black text-white py-3 px-10 flex flex-row md:justify-between justify-center '>
 
                 <div className='hidden md:block'>
                     <ul className='flex flex-row text-2xl'>
