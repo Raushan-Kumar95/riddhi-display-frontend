@@ -7,8 +7,8 @@ import work from '../../assets/Imageslist/t-work.png'
 const Ideology = () => {
   return (
     <div>
-        <div className='py-10'>
-                <h1 className='text-4xl font-extrabold text-gray-800 tracking-wide text-center mt-20'>Our Core Ideology</h1>
+        <div className='py-10 w-full bg-[url("src/assets/Imageslist-1/ideology-left.png")]'>
+                <h1 className='text-5xl font-bold text-gray-800 tracking-wide text-center mt-20'>Our Core Ideology</h1>
                 <p className='text-gray-800 tracking-wide text-center mb-20'>To enable the customer's growth with Innovative Solution for success maximization</p>
 
                 <div className='grid md:grid-cols-4 grid-cols-1 gap-8 mx-16'>

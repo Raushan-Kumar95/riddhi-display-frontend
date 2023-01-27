@@ -8,7 +8,7 @@ const Service = () => {
     return (
         <div>
             <div className='bg-gray-100 py-2'>
-                <h1 className='text-4xl font-extrabold text-gray-800 tracking-wide text-center my-20'>Pre & post Sales Service</h1>
+                <h1 className='text-5xl font-bold text-gray-800 tracking-wide text-center my-20'>Pre & post Sales Service</h1>
 
                 <div className='grid md:grid-cols-4 grid-cols-1 gap-8 mx-16'>
                     <div className='text-center py-10 px-10 box rounded-xl bg-white'>
