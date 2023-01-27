@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../components/header/Header';
-import Display_counter from '../components/home/Display_counter';
+import DisplayCounter from '../components/home/DisplayCounter';
 import Experience from '../components/home/Experience';
 import Service from '../components/home/Service';
 import Ideology from '../components/home/Ideology';
@@ -11,16 +11,18 @@ import Project from '../components/home/Project';
 import Footer from '../components/footer/Footer';
 import CallToMain from '../components/home/CallToMain';
 import Subscribe from '../components/home/Subscribe';
+import Kitchendreams from '../components/home/Kitchendreams';
 
 
 const HomePage = () => {
   return (
     <>
         <Header/>
-        <Display_counter/>
+        <DisplayCounter/>
         <Experience/>
         <Service/>
         <Ideology/>
+        <Kitchendreams/>
         <Expertise/>
         <SuccessStory/>
         <Present/>
