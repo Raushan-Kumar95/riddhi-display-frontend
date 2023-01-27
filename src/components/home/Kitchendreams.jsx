@@ -8,10 +8,7 @@ const Kitchendreams = () => {
                 <div className=" text-[22px] font-bold  ">
                     <div className="md:w-[400px] md:text-[26px] ">
                         We Can Build You The Kitchen of Your Dreams
-                       
-                      
                     </div>
-                    
                     
                 </div>
                 <div className="">
