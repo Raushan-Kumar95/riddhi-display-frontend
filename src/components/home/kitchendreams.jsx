@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const kitchendreams = () => {
+const Kitchendreams = () => {
     return (
         <>
             <div className=" kitchendreams flex  flex-col border-2 border-red-600 rounded-md  justify-end mx-4 md:mx-8 px-16 pt-8 pb-24 md:p-16 bg-[url('src/assets/Imageslist/kitchen-dreams.jpg')] bg-no-repeat bg-left md:bg-right  ">
@@ -22,4 +22,4 @@ const kitchendreams = () => {
     )
 }
 
-export default kitchendreams
+export default Kitchendreams
