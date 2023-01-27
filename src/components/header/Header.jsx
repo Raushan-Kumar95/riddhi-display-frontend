@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import HeaderData from './HeaderData.json'
 
 const Navbar = () => {
@@ -51,9 +52,9 @@ const Navbar = () => {
                     <ul className='nav-links md:flex md:flex-row flex-col md:text-center font-semibold text-lg text-center md:py-7 py-10'>
                         {HeaderData.map(nav => {
                             return (
-                                <li className='md:px-5 md:py-1 py-2'>
+                                <NavLink to={nav.link} className='md:px-5 md:py-1 py-2'>
                                     <a href={nav.link}>{nav.name}</a>
-                                </li>
+                                </NavLink>
                             )
                         })}
                     </ul>
