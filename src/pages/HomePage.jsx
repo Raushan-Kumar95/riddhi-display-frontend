@@ -18,6 +18,7 @@ const HomePage = () => {
   return (
     <>
         {/* <Header/> */}
+        
         <DisplayCounter/>
         <Experience/>
         <Service/>
@@ -28,6 +29,7 @@ const HomePage = () => {
         <Present/>
         <Project/>
         <Greatclient/>
+
         {/* <CallToMain/>
         <Subscribe/>
         <Footer/> */}
