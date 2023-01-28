@@ -21,6 +21,12 @@ const HomePage = () => {
     <>
         {/* <Header/> */}
         <BannerSlider/>
+<<<<<<< HEAD
+=======
+        
+>>>>>>> 0bab126c565b7c906139e1b73d0a064412a41f31
+        <DisplayCounter/>
+        <BannerSlider/>
          <DisplayCounter/>
         <Experience/>
         <Service/>
