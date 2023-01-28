@@ -11,7 +11,8 @@ import SuccessStory from '../components/home/SuccessStory';
 import Present from '../components/home/Present';
 import Project from '../components/home/Project';
 import Kitchendreams from '../components/home/Kitchendreams';
-import Greatclient from '../components/home/Greatclient'
+import Greatclient from '../components/home/Greatclient';
+import Client from '../components/home/Client';
 
 
 const HomePage = () => {
@@ -21,6 +22,7 @@ const HomePage = () => {
         <DisplayCounter/>
         <Experience/>
         <Service/>
+        <Client />
         <Ideology/>
         <Kitchendreams/>
         <Expertise/>
