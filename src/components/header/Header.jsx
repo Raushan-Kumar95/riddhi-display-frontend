@@ -49,7 +49,7 @@ const Navbar = () => {
                 </div>
 
                 
-                    <ul className='nav-links md:flex md:flex-row flex-col md:text-center font-semibold text-lg text-center md:py-7 py-10'>
+                    <ul className='nav-links flex md:flex md:flex-row flex-col md:text-center font-semibold text-lg text-center md:py-7 py-10'>
                         {HeaderData.map(nav => {
                             return (
                                 <NavLink to={nav.link} className='md:px-5 md:py-1 py-2'>

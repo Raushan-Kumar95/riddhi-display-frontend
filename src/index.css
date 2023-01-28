@@ -9,3 +9,7 @@
 .kitchendreams{
     box-shadow: 0px 5px 5px 5px #888;
 }
+
+.squareLine1:hover .plusIcon1{
+    color: red;
+}

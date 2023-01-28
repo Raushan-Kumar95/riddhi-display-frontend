@@ -12,12 +12,14 @@ import Present from '../components/home/Present';
 import Project from '../components/home/Project';
 import Kitchendreams from '../components/home/Kitchendreams';
 import Greatclient from '../components/home/Greatclient'
+import BannerSlider from '../components/home/BannerSlider';
 
 
 const HomePage = () => {
   return (
     <>
         {/* <Header/> */}
+        <BannerSlider/>
         <DisplayCounter/>
         <Experience/>
         <Service/>
