@@ -13,6 +13,8 @@ import Project from '../components/home/Project';
 import Kitchendreams from '../components/home/Kitchendreams';
 import Greatclient from '../components/home/Greatclient'
 import BannerSlider from '../components/home/BannerSlider';
+import Greatclient from '../components/home/Greatclient';
+import Client from '../components/home/Client';
 
 
 const HomePage = () => {
@@ -20,9 +22,11 @@ const HomePage = () => {
     <>
         {/* <Header/> */}
         <BannerSlider/>
+        
         <DisplayCounter/>
         <Experience/>
         <Service/>
+        <Client />
         <Ideology/>
         <Kitchendreams/>
         <Expertise/>
@@ -30,6 +34,7 @@ const HomePage = () => {
         <Present/>
         <Project/>
         <Greatclient/>
+
         {/* <CallToMain/>
         <Subscribe/>
         <Footer/> */}
