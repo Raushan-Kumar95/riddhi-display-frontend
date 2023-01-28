@@ -1,4 +1,5 @@
 import React from 'react'
+import CompanyHistory from '../components/about/CompanyHistory'
 import Director from '../components/about/Director'
 import { Experiance } from '../components/about/Experiance'
 import Greatclient from '../components/home/Greatclient'
@@ -13,6 +14,7 @@ const AboutUsPage = () => {
     <div>
         <Experiance/>
         <Director/>
+        <CompanyHistory/>
         <Ideology/>
         <Kitchendreams/>
         <SuccessStory/>
