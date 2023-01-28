@@ -23,6 +23,8 @@ const HomePage = () => {
         <BannerSlider/>
         
         <DisplayCounter/>
+        <BannerSlider/>
+         <DisplayCounter/>
         <Experience/>
         <Service/>
         <Client />

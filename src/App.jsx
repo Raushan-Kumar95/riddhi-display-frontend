@@ -9,6 +9,7 @@ import HomePage from './pages/HomePage';
 import AboutUsPage from './pages/AboutUsPage'
 import ContactPage from './pages/ContactPage';
 import ProjectsPage from './pages/ProjectsPage';
+import DownloadPage from './pages/DownloadPage';
 
 
 
@@ -24,6 +25,8 @@ function App() {
         <Route exact path='/about-us' element={<AboutUsPage/>} />
         <Route exact path='/Contact' element={<ContactPage/>} />
         <Route exact path='/projects' element={<ProjectsPage/>} />
+        <Route exact path='/Download' element={<DownloadPage/>} />
+
     </Routes>
 
     <CallToMain/>
