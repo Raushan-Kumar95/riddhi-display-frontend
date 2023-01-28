@@ -8,6 +8,7 @@ import Footer from './components/footer/Footer';
 import HomePage from './pages/HomePage';
 import AboutUsPage from './pages/AboutUsPage'
 import ContactPage from './pages/ContactPage';
+import ProjectsPage from './pages/ProjectsPage';
 
 
 
@@ -22,7 +23,7 @@ function App() {
         <Route exact path='/' element={<HomePage/>} />
         <Route exact path='/about-us' element={<AboutUsPage/>} />
         <Route exact path='/Contact' element={<ContactPage/>} />
-
+        <Route exact path='/projects' element={<ProjectsPage/>} />
     </Routes>
 
     <CallToMain/>
