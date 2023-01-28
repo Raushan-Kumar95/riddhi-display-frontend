@@ -26,7 +26,7 @@ const BannerSlider = () => {
             >
                 <SwiperSlide>
                     <div className='h-screen w-screen bg-[url("src/assets/images/banner_slider/IMG_0068-F-scaled-1.jpg")] bg-cover'>
-                        <div className='flex flex-col justify-center items-center py-48 text-white'>
+                        <div className='flex flex-col justify-center items-center py-44 text-white'>
                             <h4 className='text-2xl p-6'>WHAT DIFFERENTIATES US?</h4>
                             <div className='text-7xl font-extrabold'>
                                 <span>We Believe In </span><span className='text-red-600'>Our Quality</span>
@@ -38,7 +38,7 @@ const BannerSlider = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='h-screen w-screen bg-[url("src/assets/images/banner_slider/slider-2-scaled-1.jpg")] bg-cover'>
-                        <div className='flex flex-col justify-center items-center py-48 text-white'>
+                        <div className='flex flex-col justify-center items-center py-44 text-white'>
                             <h4 className='text-2xl p-6'>COMITTED TO YOUR SUCCESS</h4>
                             <div className='text-7xl font-extrabold'>
                                 <span>Delivering</span><span className='text-red-600'>The Promise</span>
