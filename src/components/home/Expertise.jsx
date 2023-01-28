@@ -6,7 +6,7 @@ import sustainable from '../../assets/Imageslist/sustainable.png'
 const Expertise = () => {
   return (
     <div>
-        <div className='bg-gray-100 py-28'>
+        <div className='bg-gray-100 py-28 my-10'>
                 <h1 className='text-5xl font-bold text-gray-800 tracking-wide text-center mb-20'>Some of Our Expertise</h1>
 
                 <div className='grid md:grid-cols-3 grid-cols-1 gap-8 mx-16'>

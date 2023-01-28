@@ -1,4 +1,5 @@
 import React from 'react'
+import Director from '../components/about/Director'
 import { Experiance } from '../components/about/Experiance'
 import Greatclient from '../components/home/Greatclient'
 import Ideology from '../components/home/Ideology'
@@ -11,6 +12,7 @@ const AboutUsPage = () => {
   return (
     <div>
         <Experiance/>
+        <Director/>
         <Ideology/>
         <Kitchendreams/>
         <SuccessStory/>
