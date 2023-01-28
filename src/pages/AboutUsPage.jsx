@@ -1,4 +1,5 @@
 import React from 'react'
+import CompanyHistory from '../components/about/CompanyHistory'
 import Director from '../components/about/Director'
 import { Experiance } from '../components/about/Experiance'
 import TopBanner from '../components/about/TopBanner'
@@ -16,6 +17,7 @@ const AboutUsPage = () => {
         <TopBanner name="About us" img_paths={img_path}/>
         <Experiance/>
         <Director/>
+        <CompanyHistory/>
         <Ideology/>
         <Kitchendreams/>
         <SuccessStory/>
