@@ -26,7 +26,7 @@ const Greatclient = () => {
   return (
     <>
          <div className='py-10'>
-                <h1 className='md:text-4xl font-extrabold text-gray-800 tracking-wide text-center mt-20'>Our Great Clients</h1>
+                <h1 className='text-4xl font-extrabold text-gray-800 tracking-wide text-center mt-20'>Our Great Clients</h1>
                 <div className="md:mx-16 md:my-16">
                 <Swiper
         slidesPerView={5}
@@ -42,32 +42,32 @@ const Greatclient = () => {
       >
      
         <SwiperSlide>
-              <div className="border-2 border-gray-400 md:mx-5 rounded-md ">
+              <div className="border-[1px] border-gray-200  mx-5 rounded-md ">
                 <img src={comp_img_1} alt="" />
               </div>
         </SwiperSlide>
         <SwiperSlide>
-        <div className="border-2 border-gray-400 mx-5 rounded-md ">
+        <div className="border-[1px] border-gray-200 mx-5 rounded-md ">
                 <img src={comp_img_2} alt="" />
               </div>
         </SwiperSlide>
         <SwiperSlide>
-        <div className="border-2 border-gray-400 mx-5 rounded-md ">
+        <div className="border-[1px] border-gray-200 mx-5 rounded-md ">
                 <img src={comp_img_3} alt="" />
               </div>
         </SwiperSlide>
         <SwiperSlide>
-        <div className="border-2 border-gray-400 mx-5 rounded-md ">
+        <div className="border-[1px] border-gray-200 mx-5 rounded-md ">
                 <img src={comp_img_4} alt="" />
               </div>
         </SwiperSlide>
         <SwiperSlide>
-        <div className="border-2 border-gray-400 mx-5 rounded-md ">
+        <div className="border-[1px] border-gray-200  mx-5 rounded-md ">
                 <img src={comp_img_5} alt="" />
               </div>
         </SwiperSlide>
         <SwiperSlide>
-        <div className="border-2 border-gray-400 mx-5 rounded-md">
+        <div className="border-[1px] border-gray-200  mx-5 rounded-md">
                 <img src={comp_img_6} alt="" />
               </div>
         </SwiperSlide>
