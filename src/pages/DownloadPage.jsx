@@ -1,5 +1,5 @@
 import React from 'react'
-import DownloadBrohure from '../components/download/DownloadBrohure'
+import DownloadBroucher from '../components/download/DownloadBroucher'
 import TopBannerDownload from '../components/download/TopBannerDownload'
 
 
@@ -9,7 +9,7 @@ const DownloadPage = () => {
   return (
     <div>
         <TopBannerDownload name="Download" />
-        <DownloadBrohure />
+        <DownloadBroucher />
     </div>
   )
 }
