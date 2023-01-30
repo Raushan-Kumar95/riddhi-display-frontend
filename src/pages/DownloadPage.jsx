@@ -1,14 +1,14 @@
 import React from 'react'
-import TopBanner from '../components/about/TopBanner'
 import DownloadBrohure from '../components/download/DownloadBrohure'
+import TopBannerDownload from '../components/download/TopBannerDownload'
 
 
-const img_path='src/assets/Imageslist-1/bakery_banner.jpg'
+
 
 const DownloadPage = () => {
   return (
     <div>
-        <TopBanner name="Download" img_paths={img_path} />
+        <TopBannerDownload name="Download" />
         <DownloadBrohure />
     </div>
   )
