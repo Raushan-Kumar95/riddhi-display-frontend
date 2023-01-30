@@ -7,7 +7,7 @@ const TopBanner = (props) => {
   return (
     <>
      <div className={img_class}>
-        <h1 className="text-4xl md:text-6xl font-bold md:font-extrabold text-white">{props.name}</h1>
+        <h1 className="text-4xl md:text-6xl font-bold md:font-extrabold text-white w-[800px] text-center">{props.name}</h1>
      </div>
     </>
   )
