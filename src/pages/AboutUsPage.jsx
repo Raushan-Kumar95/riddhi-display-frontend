@@ -1,4 +1,5 @@
 import React from 'react'
+import CompanyHistory from '../components/about/CompanyHistory'
 import Director from '../components/about/Director'
 import { Experiance } from '../components/about/Experiance'
 import TopBanner from '../components/about/TopBanner'
@@ -8,14 +9,15 @@ import Kitchendreams from '../components/home/Kitchendreams'
 import Present from '../components/home/Present'
 import SuccessStory from '../components/home/SuccessStory'
 
-const img_path='src/assets/Imageslist-1/about_banner.jpg'
+
 
 const AboutUsPage = () => {
   return (
     <div>
-        <TopBanner name="About us" img_paths={img_path}/>
+        <TopBanner name="About us"/>
         <Experiance/>
         <Director/>
+        <CompanyHistory/>
         <Ideology/>
         <Kitchendreams/>
         <SuccessStory/>
