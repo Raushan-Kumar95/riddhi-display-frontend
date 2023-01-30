@@ -18,20 +18,20 @@ import DownloadPage from './pages/DownloadPage';
 function App() {
   return (
     <BrowserRouter>
-    <Header/>
+      <Header />
 
-    <Routes>
-        <Route exact path='/' element={<HomePage/>} />
-        <Route path='/about-us' element={<AboutUsPage/>} />
-        <Route path='/Contact' element={<ContactPage/>} />
-        <Route path='/projects' element={<ProjectsPage/>} />
-        <Route path='/Download' element={<DownloadPage/>} />
-    </Routes>
+      <Routes>
+        <Route exact path='/' element={<HomePage />} />
+        <Route path='/about-us' element={<AboutUsPage />} />
+        <Route path='/Contact' element={<ContactPage />} />
+        <Route path='/projects' element={<ProjectsPage />} />
+        <Route path='/Download' element={<DownloadPage />} />
+      </Routes>
 
-    <CallToMain/>
-    <Subscribe/>
-    <Footer/>
-      
+      <CallToMain />
+      <Subscribe />
+      <Footer />
+
     </BrowserRouter>
   )
 }
