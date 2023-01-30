@@ -11,22 +11,22 @@ const Display_counter = ()=>{
             <div className="grid grid-cols-1 md:grid-cols-2  md:gap-x-8 md:mt-[100px] mx-4 md:mx-16">
                 <div className="flex flex-col mb-[-30px]">
                     <img className=" object-cover"src={counter_image1} alt=""/>
-                    <div className="bg-red-500 text-white p-4 md:p-8 md:text-[26px] font-bold text-center relative translate-y-[-50px]">Display Counter</div>
+                    <div className="bg-red-500 text-white p-4 xl:p-8 xl:text-[26px] font-bold text-center relative translate-y-[-50px]">Display Counter</div>
                 </div>
                 
                 <div className="flex flex-col mb-[-30px]">
                     <img   src={counter_image2} alt=""/>
-                    <div className="bg-red-500 text-white p-4 md:p-8 md:text-[26px] font-bold text-center relative translate-y-[-50px]">Kitchen Equipment</div>
+                    <div className="bg-red-500 text-white p-4 xl:p-8 xl:text-[26px] font-bold text-center relative translate-y-[-50px]">Kitchen Equipment</div>
                 </div>
                 
                 <div className="flex flex-col mb-[-30px]">
                     <img   src={counter_image3} alt=""/>
-                    <div className="bg-red-500 text-white p-4 md:p-8 md:text-[26px] font-bold text-center relative translate-y-[-50px]">Refrigeration Equipment</div>
+                    <div className="bg-red-500 text-white p-4 xl:p-8 xl:text-[26px] font-bold text-center relative translate-y-[-50px]">Refrigeration Equipment</div>
                 </div>
 
                 <div className="flex flex-col mb-[-30px]">
                     <img   src={counter_image4} alt=""/>
-                    <div className="bg-red-500 text-white p-4 md:p-8 md:text-[26px] font-bold text-center relative translate-y-[-50px]">Professional Kitchen Consulting</div>
+                    <div className="bg-red-500 text-white p-4 xl:p-8 xl:text-[26px] font-bold text-center relative translate-y-[-50px]">Professional Kitchen Consulting</div>
                 </div>
             </div>
         </>

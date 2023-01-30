@@ -1,13 +1,13 @@
 import React from 'react'
 
-const DownloadBrohure = () => {
+const DownloadBroucher = () => {
     return (
         <>
-            <div className="my-16 mx-8  flex flex-col md:items-center ">
-                <div className="text-3xl md:text-5xl md:w-[900px] font-bold  ">Fill Your Detail Below To Download Our Brochure</div>
+            <div className="my-16 mx-8  flex flex-col lg:items-center ">
+                <div className="text-3xl  md:text-4xl lg:text-5xl lg:w-[900px] font-bold  ">Fill Your Detail Below To Download Our Brochure</div>
                   <hr className="w-1/3 md:w-1/6 mt-10 relative left-[50%] translate-x-[-50%] md:left-0 md:translate-x-[0] border-black "/>
                 <div className="my-10">
-                    <form  className="flex flex-col gap-5 md:w-[900px]">
+                    <form  className="flex flex-col gap-5 lg:w-[900px]">
                         <div className="flex flex-col gap-2">
                             <label htmlFor="" className="font-bold">First Name*</label>
                             <input type="text" className="border-2 p-2" value=""  required />
@@ -63,4 +63,4 @@ const DownloadBrohure = () => {
     )
 }
 
-export default DownloadBrohure
+export default DownloadBroucher

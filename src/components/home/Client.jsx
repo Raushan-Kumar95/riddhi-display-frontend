@@ -31,7 +31,7 @@ const Client = () => {
                             <div className="flex flex-col justify-center items-center">
                                 <div className="md:text-3xl font-extrabold">Mr. Natwarlal Sharda</div>
                                 <div className="">Kanha Sweets</div>
-                                <p className="md:w-[900px] text-center text-gray-500 my-4">
+                                <p className="md:w-[600px] xl:w-[900px] text-center text-gray-500 my-4">
                                     The best in class! Longer durability, appealing aesthetics, smooth operations, practical designs and less power consumption even after accommodating all these features Riddhi products are really a value for money offerings. It is my standard of selection and I am proud to be choosing Riddhi products for my outlets.
                                 </p>
                                 <div className="my-4 md:my-16 ">
@@ -44,7 +44,7 @@ const Client = () => {
                             <div className="flex flex-col justify-center items-center">
                                 <div className="md:text-3xl font-extrabold">Mr. Natwarlal Sharda</div>
                                 <div className="">Kanha Sweets</div>
-                                <p className="md:w-[900px] text-center text-gray-500 my-4">
+                                <p className="md:w-[600px] xl:w-[900px] text-center text-gray-500 my-4">
                                     The best in class! Longer durability, appealing aesthetics, smooth operations, practical designs and less power consumption even after accommodating all these features Riddhi products are really a value for money offerings. It is my standard of selection and I am proud to be choosing Riddhi products for my outlets.
                                 </p>
                                 <div className="my-4 md:my-16 ">
@@ -57,7 +57,7 @@ const Client = () => {
                             <div className="flex flex-col justify-center items-center">
                                 <div className="md:text-3xl font-extrabold">Mr. Natwarlal Sharda</div>
                                 <div className="">Kanha Sweets</div>
-                                <p className="md:w-[900px] text-center text-gray-500 my-4">
+                                <p className="md:w-[600px] xl:w-[900px] text-center text-gray-500 my-4">
                                     The best in class! Longer durability, appealing aesthetics, smooth operations, practical designs and less power consumption even after accommodating all these features Riddhi products are really a value for money offerings. It is my standard of selection and I am proud to be choosing Riddhi products for my outlets.
                                 </p>
                                 <div className="my-4 md:my-16 ">

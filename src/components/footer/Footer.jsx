@@ -4,12 +4,12 @@ const Footer = () => {
     return (
         <>
             <footer>
-                <div className="bg-black text-white flex flex-col md:flex-row  px-4 md:px-8 py-16 ">
-                    <div className="  md:w-1/5">
+                <div className="bg-black text-white grid md:grid-cols-3 lg:grid-cols-4  px-4  py-16 ">
+                    <div className="   pr-12">
                         <div className=" mb-4"><img src="https://www.riddhidisplay.com/wp-content/uploads/2021/04/footer-logo.png" alt="" /></div>
                         <div className="">Rajkot - Gondal National Highway 27, Gondal, Rajkot, Bhojapara - 360311 (Gujarat)</div>
                     </div>
-                    <div className="md:mx-16">
+                    <div className="md:mx-12 ">
                         <div className=" my-3 font-extrabold ">Quick Links</div>
                         <div className="font-thin">
                             <ul>
@@ -23,7 +23,7 @@ const Footer = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className=" md:mx-64">
+                    <div className="  md:mx-4 lg:mx-8 2xl:mx-64">
                         <div className="my-3  font-extrabold ">Get In Touch</div>
                         <div className="flex flex-col font-thin">
                             <a href=""><i className="  text-[13px] mr-2 fa-solid fa-phone"></i>+91 98250 72799</a>
