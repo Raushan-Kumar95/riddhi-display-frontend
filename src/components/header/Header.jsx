@@ -30,10 +30,10 @@ const Navbar = () => {
 
                 <div className='hidden md:block'>
                     <ul className='flex flex-row text-2xl'>
-                        <li className='mx-3'><a href="https://www.facebook.com/riddhidisplaypvtltd"><i class="fa-brands fa-facebook"></i></a></li>
-                        <li className='mx-3'><a href="https://twitter.com/riddhidisplay"><i class="fa-brands fa-twitter"></i></a></li>
-                        <li className='mx-3'><a href="https://www.instagram.com/riddhidisplay/"><i class="fa-brands fa-instagram"></i></a></li>
-                        <li className='mx-3'><a href="https://www.linkedin.com/in/riddhidisplay/"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li className='mx-3'><a href="https://www.facebook.com/riddhidisplaypvtltd"><i className="fa-brands fa-facebook"></i></a></li>
+                        <li className='mx-3'><a href="https://twitter.com/riddhidisplay"><i className="fa-brands fa-twitter"></i></a></li>
+                        <li className='mx-3'><a href="https://www.instagram.com/riddhidisplay/"><i className="fa-brands fa-instagram"></i></a></li>
+                        <li className='mx-3'><a href="https://www.linkedin.com/in/riddhidisplay/"><i className="fa-brands fa-linkedin"></i></a></li>
                     </ul>
                 </div>
 
@@ -54,7 +54,7 @@ const Navbar = () => {
                         <img src="https://www.riddhidisplay.com/wp-content/uploads/2021/04/logo.png" alt="Logo" />
 
                         <div className='py-4 text-3xl md:hidden block' onClick={handleHamClick}>
-                            {!hamburger ? <i class="fa-solid fa-bars"></i> : <i class="fa fa-close text-red-500"></i>}
+                            {!hamburger ? <i className="fa-solid fa-bars"></i> : <i className="fa fa-close text-red-500"></i>}
                         </div>
 
                     </div>
