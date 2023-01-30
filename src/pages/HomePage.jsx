@@ -1,7 +1,4 @@
 import React from 'react'
-
-
-
 import DisplayCounter from '../components/home/DisplayCounter';
 import Experience from '../components/home/Experience';
 import Service from '../components/home/Service';
