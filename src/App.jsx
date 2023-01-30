@@ -10,6 +10,7 @@ import AboutUsPage from './pages/AboutUsPage'
 import ContactPage from './pages/ContactPage';
 import ProjectsPage from './pages/ProjectsPage';
 import DownloadPage from './pages/DownloadPage';
+import ServicesPage from './pages/ServicesPage';
 
 
 
@@ -26,6 +27,7 @@ function App() {
         <Route path='/Contact' element={<ContactPage/>} />
         <Route path='/projects' element={<ProjectsPage/>} />
         <Route path='/Download' element={<DownloadPage/>} />
+        <Route path='/Services' element={<ServicesPage/>} />
     </Routes>
 
     <CallToMain/>
