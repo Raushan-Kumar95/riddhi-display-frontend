@@ -11,7 +11,7 @@ const Subscribe = () => {
                     </h1>
                 </div>
 
-                <div className='flex px-2'>
+                <div className='flex px-2 gap-4'>
                     <input className='w-full border border-1 border-black px-2' type="text" placeholder='Enter Your Email Address' />
                     <button className='px-4 py-2 bg-red-700 text-white rounded-md'>Subscribe</button>
                 </div>

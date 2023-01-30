@@ -16,7 +16,7 @@ const AllProducts = () => {
         <div className='px-16 py-4'>
             <h1 className='font-bold text-2xl bg-red-200 px-4 py-2 inline-block'>All Projects</h1>
             {/* <img src={img1} alt="" /> */}
-            <div className='grid grid-cols-3 gap-8  place-items-center'>
+            <div className='grid lg:grid-cols-3 sm:grid-cols-2  gap-8  place-items-center'>
                 {
                     data.map(item => {
                             
