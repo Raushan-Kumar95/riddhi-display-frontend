@@ -1,7 +1,4 @@
 import React from 'react'
-
-
-
 import DisplayCounter from '../components/home/DisplayCounter';
 import Experience from '../components/home/Experience';
 import Service from '../components/home/Service';
@@ -20,14 +17,9 @@ const HomePage = () => {
   return (
     <>
         {/* <Header/> */}
-        <BannerSlider/>
-<<<<<<< HEAD
-=======
         
->>>>>>> 0bab126c565b7c906139e1b73d0a064412a41f31
-        <DisplayCounter/>
         <BannerSlider/>
-         <DisplayCounter/>
+        <DisplayCounter/>
         <Experience/>
         <Service/>
         <Client />
