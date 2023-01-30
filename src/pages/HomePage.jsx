@@ -17,8 +17,8 @@ const HomePage = () => {
   return (
     <>
         {/* <Header/> */}
-        
         <BannerSlider/>
+        
         <DisplayCounter/>
         <Experience/>
         <Service/>

@@ -9,12 +9,12 @@ import Kitchendreams from '../components/home/Kitchendreams'
 import Present from '../components/home/Present'
 import SuccessStory from '../components/home/SuccessStory'
 
-const img_path='src/assets/Imageslist-1/about_banner.jpg'
+
 
 const AboutUsPage = () => {
   return (
     <div>
-        <TopBanner name="About us" img_paths={img_path}/>
+        <TopBanner name="About us"/>
         <Experiance/>
         <Director/>
         <CompanyHistory/>
