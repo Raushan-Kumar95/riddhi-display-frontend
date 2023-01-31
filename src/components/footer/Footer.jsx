@@ -29,7 +29,7 @@ const Footer = () => {
                             <a href=""><i className="  text-[13px] mr-2 fa-solid fa-phone"></i>+91 98359 99500</a>
                             <a href=""><i className=" text-[13px] mr-2 fa-solid fa-phone"></i>+91 77177 88162</a>
                             <a href=""><i className="text-[14px] mr-2 fa-solid fa-envelope"></i>roshntn@gmail.com</a>
-                            {/* <a href=""><i className="text-[14px] mr-2 fa-solid fa-earth-americas"></i>info@riddhidisplay.com</a> */}
+                            {/* <a href=""><i className="text-[14px] mr-2 fa-solid fa-earth-americas"></i>roshntn@gmail.com</a> */}
                         </div>
 
                     </div>
