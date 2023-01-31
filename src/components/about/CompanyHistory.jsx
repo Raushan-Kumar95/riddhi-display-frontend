@@ -37,7 +37,7 @@ const CompanyHistory = () => {
                         </Swiper>
                     </div>
                     <div className='flex flex-col gap-6 px-5 md:py-20'>
-                        <h1 className=' md:text-4xl text-2xl font-bold'>Our History</h1>
+                        <h1 className=' md:text-4xl text-2xl font-bold text-gray-800'>Our History</h1>
                         <p className='md:text-lg text-base'>Darsh Manufacturing is an ISO 9001:2015 Certified Rajkot-based Display Equipment Company that manufactures display cases for the hotel, cafe, and bakery industry.</p>
                         <p className='md:text-lg text-base'>This company came into existence in 1985 as a result of the innovative mind and dedicated efforts of Mr. Shailesh Patel. Today, Riddhi Display is the most renowned and leading industry that provides display cases in India, Dubai, Sri Lanka, Australia, and the UK.</p>
                         <p className='md:text-lg text-base'>Being the leading producer of most innovative and amazing cases that enhances the visibility of food items, maintains their freshness, and nutritional value, and store them with hygiene, <a className='text-blue-700' href="/">Darsh Manufacturing</a> has become the most preferred choice in the beverage industry.</p>

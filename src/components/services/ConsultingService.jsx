@@ -4,7 +4,7 @@ import Installation from '../../assets/Imageslist/Installation.jpg'
 const ConsultingService = () => {
   return (
     <div className='py-10'>
-                <h1 className='md:text-5xl text-3xl font-extrabold md:pl-16 pl-5 md:w-[800px]' > <span className='text-red-600'>Commercial Kitchen</span> <span>Consulting Service</span>  </h1>
+                <h1 className='md:text-5xl text-3xl font-extrabold md:pl-16 pl-5 md:w-[800px]' > <span className='text-red-500'>Commercial Kitchen</span> <span className='text-gray-800'>Consulting Service</span>  </h1>
         <div className='flex md:flex-row flex-col gap-5 md:my-16 md:mx-16 my-8 mx-8'>
             <div className='flex flex-col gap-6 text-base md:w-[1150px]'>
                 <p>Commercial kitchen installation calls for considerable investment of time and money. It doesn’t end there. You also need supremely reliable experts by your side to translate your vision into reality. At Riddhi Display, we provide you with exceptional installation services, so that your commercial kitchen requirements are met above and beyond your expectations.</p>
