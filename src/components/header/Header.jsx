@@ -24,6 +24,8 @@ const Navbar = () => {
 
     let activeClassName = "md:px-5 md:py-1 py-2 underline text-red-800"
 
+
+    
     return (
         <>
             {/* Header Top */}
