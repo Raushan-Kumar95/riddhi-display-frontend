@@ -23,7 +23,7 @@ const Footer = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="  md:mx-4 lg:mx-8 2xl:mx-64">
+                    <div className="  md:mx-4 lg:mx-8 xl-24">
                         <div className="my-3  font-extrabold ">Get In Touch</div>
                         <div className="flex flex-col font-thin">
                             <a href=""><i className="  text-[13px] mr-2 fa-solid fa-phone"></i>+91 98250 72799</a>
