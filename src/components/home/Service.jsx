@@ -10,7 +10,7 @@ const Service = () => {
             <div className='bg-gray-100 py-10 my-10'>
                 <h1 className='text-5xl font-bold text-gray-800 tracking-wide text-center my-20'>Pre & post Sales Service</h1>
 
-                <div className='grid md:grid-cols-4 grid-cols-1 gap-8 mx-16'>
+                <div className='grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-8 mx-16'>
                     <div className='text-center py-10 px-10 box rounded-xl bg-white'>
                         <div className='flex justify-center items-center py-4'>
                             <img src={commitment} alt="commitment" />
