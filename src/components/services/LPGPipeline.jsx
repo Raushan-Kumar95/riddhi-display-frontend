@@ -4,7 +4,7 @@ const LPGPipeline = () => {
     return (
         <div className='bg-gray-100'>
             <div className=' py-10'>
-                <h1 className='md:text-5xl text-3xl font-extrabold text-center'><span className='text-red-600'>LPG Pipeline</span><span>Design Installation</span></h1>
+                <h1 className='md:text-5xl text-3xl font-extrabold text-center'><span className='text-red-500'>LPG Pipeline</span><span className='text-gray-800'>Design Installation</span></h1>
 
                 <div className='flex md:flex-row flex-col gap-10 md:my-16 md:mx-16 my-8 mx-8'>
                     <div>
