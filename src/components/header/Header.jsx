@@ -31,17 +31,17 @@ const Navbar = () => {
 
                 <div className='hidden md:block'>
                     <ul className='flex flex-row text-2xl'>
-                        <li className='mx-3'><a href="https://www.facebook.com/riddhidisplaypvtltd"><i className="fa-brands fa-facebook"></i></a></li>
-                        <li className='mx-3'><a href="https://twitter.com/riddhidisplay"><i className="fa-brands fa-twitter"></i></a></li>
-                        <li className='mx-3'><a href="https://www.instagram.com/riddhidisplay/"><i className="fa-brands fa-instagram"></i></a></li>
-                        <li className='mx-3'><a href="https://www.linkedin.com/in/riddhidisplay/"><i className="fa-brands fa-linkedin"></i></a></li>
+                        <li className='mx-3'><a href="https://www.facebook.com/"><i className="fa-brands fa-facebook"></i></a></li>
+                        <li className='mx-3'><a href="https://twitter.com/"><i className="fa-brands fa-twitter"></i></a></li>
+                        <li className='mx-3'><a href="https://www.instagram.com/"><i className="fa-brands fa-instagram"></i></a></li>
+                        <li className='mx-3'><a href="https://www.linkedin.com/in"><i className="fa-brands fa-linkedin"></i></a></li>
                     </ul>
                 </div>
 
                 <div className=''>
                     <ul className='flex md:flex-row flex-col md:mx-5  '>
-                        <li className='mx-3 text-center'><a href="tel:+91 9825072799"><i class="fa-solid fa-phone"></i> +91 9825072799</a></li>
-                        <li className='mx-3 text-center'><a href="mailto:info@riddhidisplay.com"><i class="fa-regular fa-envelope"></i> info@riddhidisplay.com</a></li>
+                        <li className='mx-3 text-center'><a href="tel:+91 7717788162"><i class="fa-solid fa-phone"></i> +91 7717788162</a></li>
+                        <li className='mx-3 text-center'><a href="mailto:roshntn@gmail.com"><i class="fa-regular fa-envelope"></i> roshntn@gmail.com</a></li>
                     </ul>
                 </div>
             </div>
