@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import HeaderData from './HeaderData.json'
+import logo from '../../../public/Darsh_Logo.png'
 
 
 const Navbar = () => {
@@ -51,7 +52,7 @@ const Navbar = () => {
             <div className='sticky'>
                 <nav className=" flex md:flex-row flex-col shadow-xl justify-between overflow-hidden md:py-2  md:px-14">
                     <div className='flex flex-row justify-between md:px-2 px-5 py-3'>
-                        <img src="https://www.riddhidisplay.com/wp-content/uploads/2021/04/logo.png" alt="Logo" />
+                        <img className='h-16 overflow-hidden' src={logo} alt="Logo" />
 
                         <div className='py-4 text-3xl md:hidden block' onClick={handleHamClick}>
                             {!hamburger ? <i className="fa-solid fa-bars"></i> : <i className="fa fa-close text-red-500"></i>}
