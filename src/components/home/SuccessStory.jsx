@@ -4,7 +4,7 @@ import counter from '../../assets/Imageslist/counter.png'
 const SuccessStory = () => {
     return (
         <div>
-            <div className='py-20 my-10 grid md:grid-cols-4 grid-cols-1 gap-8 mx-16'>
+            <div className='py-20 my-10 grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-8 mx-16'>
                 <div>
                     <h1 className='text-5xl font-bold text-gray-800 tracking-wide text-start py-16'>Our Success Story</h1>
                 </div>

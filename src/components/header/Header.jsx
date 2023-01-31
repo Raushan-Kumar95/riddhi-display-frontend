@@ -43,14 +43,13 @@ const Navbar = () => {
                         <li className='mx-3 text-center'><a href="tel:+91 9825072799"><i class="fa-solid fa-phone"></i> +91 9825072799</a></li>
                         <li className='mx-3 text-center'><a href="mailto:info@riddhidisplay.com"><i class="fa-regular fa-envelope"></i> info@riddhidisplay.com</a></li>
                     </ul>
-
                 </div>
             </div>
 
 
             {/* Header Bottom */}
-            <div className='sticky'>
-                <nav className=" flex md:flex-row flex-col shadow-xl justify-between overflow-hidden md:py-2  md:px-14">
+            <div className='sticky top-0 w-full z-10'>
+                <nav className="bg-white flex md:flex-row flex-col shadow-xl justify-between overflow-hidden md:py-2  md:px-14">
                     <div className='flex flex-row justify-between md:px-2 px-5 py-3'>
                         <img className='h-16 overflow-hidden' src={logo} alt="Logo" />
 
