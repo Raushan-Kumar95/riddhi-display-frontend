@@ -2,7 +2,7 @@ import React from 'react'
 
 const Subscribe = () => {
     return (
-        <section className='py-12 px-2 bg-grey-300 text-gray-700 flex w-full justify-center items-center'>
+        <section className='Subscribe-Section py-12 px-2 bg-grey-300 text-gray-700 flex w-full justify-center items-center'>
             <form className='flex md:gap-32 gap-4 md:flex-row flex-col items-center justify-between' action="">
                 <div>
                     <h1 className='font-bold sm:text-3xl'>

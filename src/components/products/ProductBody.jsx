@@ -19,26 +19,26 @@ const ProductBody = () => {
 
     return (
         <div className='py-8'>
-            <div className='flex gap-1 justify-center'>
-                <div className='px-4 py-4 relative'>
+            <div className='flex gap-1 flex-wrap justify-center'>
+                <div className='scale-75 sm:scale-100 px-4 py-4 relative'>
                     <NavLink className='nav-tabs bg-gray-100 flex gap-2' onClick={() => setActiveTab("all")}>
                         <button className={`text-red-600 font-bold text-2xl px-4 py-2 border-2 border-red-600 ${(activeTab)==="all" ? activeClassName : ""}`}>ALL</button>
                     </NavLink>
                 </div>
 
-                <div className='px-4 py-4 relative ' >
+                <div className='scale-75 sm:scale-100 px-4 py-4 relative ' >
                     <NavLink className='nav-tabs flex bg-gray-100' onClick={() => setActiveTab("tab1")}>
-                        <button className={`text-red-600 font-bold text-2xl px-4 py-2 border-2 border-red-600 ${(!activeTab)==="tab1" ? activeClassName : ""}`}>Cold Display</button>
+                        <button className={`text-red-600 font-bold text-2xl px-4 py-2 border-2 border-red-600 ${(activeTab)==="tab1" ? activeClassName : ""}`}>Cold Display</button>
                     </NavLink>
                 </div>
-                <div className='px-4 py-4 relative ' >
+                <div className='scale-75 sm:scale-100 px-4 py-4 relative ' >
                     <NavLink className='nav-tabs flex bg-gray-100' onClick={() => setActiveTab("tab2")}>
-                        <button className={`text-red-600 font-bold text-2xl px-4 py-2 border-2 border-red-600 ${(!activeTab)==="tab2" ? activeClassName : ""}`}>Cooking Equipment</button>
+                        <button className={`text-red-600 font-bold text-2xl px-4 py-2 border-2 border-red-600 ${(activeTab)==="tab2" ? activeClassName : ""}`}>Cooking Equipment</button>
                     </NavLink>
                 </div>
-                <div className='px-4 py-4 relative ' >
+                <div className='scale-75 sm:scale-100 px-4 py-4 relative ' >
                     <NavLink className='nav-tabs flex bg-gray-100' onClick={() => setActiveTab("tab3")}>
-                        <button className={`text-red-600 font-bold text-2xl px-4 py-2 border-2 border-red-600 ${(!activeTab==="tab3") ? activeClassName : ""}`}>Customized Product</button>
+                        <button className={`text-red-600 font-bold text-2xl px-4 py-2 border-2 border-red-600 ${(activeTab==="tab3") ? activeClassName : ""}`}>Customized Product</button>
                     </NavLink>
                 </div>
             </div>

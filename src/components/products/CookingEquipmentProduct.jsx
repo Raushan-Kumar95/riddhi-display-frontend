@@ -4,7 +4,7 @@ import Title from './Title'
 const CookingEquipmentProduct = () => {
     return (
         <div className='px-16 py-4'>
-            <Title title="Customized Equipment" />
+            <Title title="Cooking Equipment" />
 
 
         </div>

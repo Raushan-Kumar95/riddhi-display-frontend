@@ -36,10 +36,16 @@ export const ProductsData = [
 
 export const ColdDisplayData = [
     {
-        img: "/Display_Counter/salad-display-counter.png",
-        name:"Salad Counter",
+        img: "/ProductImage/counter/Display_Counter.png",
+        name:"Display Counter",
         size:"Customized"
     },
+    {
+        img: "/ProductImage/counter/Ice_Cream_Parlor.png",
+        name:"Ice Cream Parlour Counter",
+        size:"Customized"
+    }
+
 
 
 ]
