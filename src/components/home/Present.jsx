@@ -45,7 +45,7 @@ const Present = () => {
                     </div>
                     <div className=''>
                         <div className='flex justify-center items-center py-4'>
-                            <img className='w-full' src={mumbai} alt="mumbai" />
+                            <img className='max-w-full w-56' src={mumbai} alt="mumbai" />
                         </div>
                         <h3 className='text-2xl font-semibold py-2 text-center'>Mumbai</h3>
                     </div>
