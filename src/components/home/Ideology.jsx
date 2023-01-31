@@ -11,7 +11,7 @@ const Ideology = () => {
                 <h1 className='text-5xl font-bold text-gray-800 tracking-wide text-center mt-20'>Our Core Ideology</h1>
                 <p className='text-gray-800 tracking-wide text-center mb-20'>To enable the customer's growth with Innovative Solution for success maximization</p>
 
-                <div className='grid md:grid-cols-4 grid-cols-1 gap-8 mx-16'>
+                <div className='grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-8 mx-16'>
                     <div className='text-center py-4 px-7 box rounded-md bg-white'>
                         <div className='flex justify-center items-center py-4'>
                             <img src={commitment} alt="commitment" />
