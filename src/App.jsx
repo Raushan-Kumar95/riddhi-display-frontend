@@ -11,6 +11,7 @@ import ContactPage from './pages/ContactPage';
 import ProjectsPage from './pages/ProjectsPage';
 import DownloadPage from './pages/DownloadPage';
 import ServicesPage from './pages/ServicesPage';
+import ProductsPage from './pages/ProductsPage';
 
 
 
@@ -28,6 +29,8 @@ function App() {
         <Route path='/projects' element={<ProjectsPage/>} />
         <Route path='/Download' element={<DownloadPage/>} />
         <Route path='/Services' element={<ServicesPage/>} />
+        <Route path='/Products' element={<ProductsPage/>} />
+
     </Routes>
 
     <CallToMain/>
