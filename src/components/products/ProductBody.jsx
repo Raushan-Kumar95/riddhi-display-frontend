@@ -18,7 +18,7 @@ const ProductBody = () => {
     let activeClassName = `{" after:absolute after:bottom-2 after:left-1/2 after:-ml-2 after:rotate-45 after:content-[""] after:px-2 after:border-red-600 after:py-2 after:border-b-2 after:border-r-2 after:bg-gray-100 "}`
 
     return (
-        <div className='py-8'>
+        <div className='py-2 sm:py-8 '>
             <div className='flex gap-1 flex-wrap justify-center'>
                 <div className='scale-75 sm:scale-100 px-4 py-4 relative'>
                     <NavLink className='nav-tabs bg-gray-100 flex gap-2' onClick={() => setActiveTab("all")}>

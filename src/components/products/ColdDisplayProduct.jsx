@@ -15,7 +15,7 @@ const ColdDisplayProduct = () => {
                         return (
                             <div className='flex flex-col gap-4 justify-center items-center'>
                                 {/* <img src={item.img} alt={item.name} srcset="" /> */}
-                                <img src={item.img}  alt={item.img} />
+                                <img src={item.img}  alt={item.alt} />
                                 <h1 className='text-center'> {item.name} </h1>
                                 <div>
                                     <h1>Size: {item.size}</h1>
