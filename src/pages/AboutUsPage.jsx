@@ -12,6 +12,8 @@ import SuccessStory from '../components/home/SuccessStory'
 
 
 const AboutUsPage = () => {
+    
+
   return (
     <div>
         <TopBanner name="About us"/>
