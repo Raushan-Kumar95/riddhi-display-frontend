@@ -106,13 +106,14 @@ export const CookingEquipmentData = [
 ]
 
 export const CustomizedSolutionsData = [
- 
     {
-        "img": "/ProductImage/CustomizedSolutions/allThing.png",
-        "name": "allThing",
-        "alt": "allThing",
+        "img": "/ProductImage/CustomizedSolutions/CustomizedSolutions_15.png",
+        "name": "CustomizedSolutions ",
+        "alt": "CustomizedSolutions ",
         "size": "Customized"
     },
+ 
+    
     {
         "img": "/ProductImage/CustomizedSolutions/CustomizedSolutions_03.png",
         "name": "CustomizedSolutions ",
@@ -131,12 +132,14 @@ export const CustomizedSolutionsData = [
         "alt": "CustomizedSolutions ",
         "size": "Customized"
     },
+ 
     {
-        "img": "/ProductImage/CustomizedSolutions/CustomizedSolutions_15.png",
-        "name": "CustomizedSolutions ",
-        "alt": "CustomizedSolutions ",
+        "img": "/ProductImage/CustomizedSolutions/allThing.png",
+        "name": "allThing",
+        "alt": "allThing",
         "size": "Customized"
     },
+
     {
         "img": "/ProductImage/CustomizedSolutions/CustomizedSolutions_18.png",
         "name": "CustomizedSolutions ",
