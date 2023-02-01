@@ -1,7 +1,7 @@
-# riddhi-display-frontend
+Riddhi Display Frontend
 
-#How to run
+Running the Application
 
-#Step 1: Clone this repository 
-#Step 2: open terminal in this path and type npm install
-#Step 3: Finally! type npm run dev 
+Clone this repository
+Open terminal in the repository directory and run npm install
+Run npm run dev to start the development server.
