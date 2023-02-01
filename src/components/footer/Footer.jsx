@@ -52,7 +52,7 @@ const Footer = () => {
 
                 <div className="bg-black text-white flex flex-col md:flex-row">
                     <div className=" px-4 font-thin md:px-8">Copyright by Darsh Manufacturing. All rights reserved.</div>
-                    <div className=" px-4 font-thin text-[16px] md:text-lg md:px-64">Powered by: <a className=" hover:text-red-800 duration-500" href="">Icecube Digital </a></div>
+                    <div className=" px-4 font-thin text-[16px] md:text-lg md:px-64">Powered by: <a className=" hover:text-red-800 duration-500" href="https://givni.in/">Givni Pvt. Ltd. </a></div>
                 </div>
             </footer>
 

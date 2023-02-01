@@ -18,9 +18,9 @@ const AllProducts = () => {
          {/* <ColdDisplayProduct/>
         <CookingEquipmentProduct/>
         <CustomizedSolutionProduct/> */}
-        <div className='grid lg:grid-cols-3 sm:grid-cols-2  gap-8  place-items-center'>
+        <div className='grid lg:grid-cols-3 sm:grid-cols-2  gap-8  place-items-center px-16'>
                 {
-                    ColdDisplayData.map(item => {
+                    images.map(item => {
                             
                         return (
                             <div className='flex flex-col gap-4 justify-center items-center'>
@@ -28,7 +28,11 @@ const AllProducts = () => {
                                 <img src={item.img}  alt={item.alt} />
                                 <h1 className='text-center'> {item.name} </h1>
                                 <div>
-                                    <h1>Size: {item.size}</h1>
+                                  {item.size && <h1>Size: {item.size}</h1>}
+                                  {item.cap && <h1>Cap: {item.cap}</h1>}
+                                  {item.blade && <h1>Size: {item.blade}</h1>}
+                                 
+                                    
                                 </div>
                             </div>
                         )

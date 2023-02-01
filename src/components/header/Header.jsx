@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import HeaderData from './HeaderData.json'
-import logo from '../../../public/Darsh_Logo.png'
+import logo from '/Darsh_Logo.png'
 
 
 const Navbar = () => {

@@ -1,1 +1,81 @@
-[{"img":"/Cooking_Equipment/4_Burner_Range_With_Oven.jpg","name":"4 Burner Range With Oven.jpg ","alt":"4 Burner Range With Oven.jpg ","size":"Customized"},{"img":"/Cooking_Equipment/Chapati_Plate_With_Puffer.jpg","name":"Chapati Plate With Puffer.jpg ","alt":"Chapati Plate With Puffer.jpg ","size":"Customized"},{"img":"/Cooking_Equipment/County_Grill_(griddle Plate).jpg","name":"County Grill (griddle Plate).jpg ","alt":"County Grill (griddle Plate).jpg ","size":"Customized"},{"img":"/Cooking_Equipment/Dosa_Plate.jpg","name":"Dosa Plate.jpg ","alt":"Dosa Plate.jpg ","size":"Customized"},{"img":"/Cooking_Equipment/Single_Burner_Range.jpg","name":"Single Burner Range.jpg ","alt":"Single Burner Range.jpg ","size":"Customized"},{"img":"/Cooking_Equipment/Three_Burner_Chinese_Range.jpg","name":"Three Burner Chinese Range.jpg ","alt":"Three Burner Chinese Range.jpg ","size":"Customized"},{"img":"/Cooking_Equipment/Three_Burner_Range.jpg","name":"Three Burner Range.jpg ","alt":"Three Burner Range.jpg ","size":"Customized"},{"img":"/Cooking_Equipment/Tilting_Brazing_Pan.jpg","name":"Tilting Brazing Pan.jpg ","alt":"Tilting Brazing Pan.jpg ","cap":"50 To 200 Ltr"},{"img":"/Preparation_Equipment/Bone_Swa_(Electric).jpg","name":"Bone Swa (Electric).jpg ","alt":"Bone Swa (Electric).jpg ","blade":"16/20 mm"},{"img":"/Preparation_Equipment/Dough_Kneader_(Electric).jpg","name":"Dough Kneader (Electric).jpg ","alt":"Dough Kneader (Electric).jpg ","cap":"5 to 100 ltr"},{"img":"/Preparation_Equipment/Meat_Mincer_(Electric).jpg","name":"Meat Mincer (Electric).jpg ","alt":"Meat Mincer (Electric).jpg ","cap":"20 to 150 kg. / hr."},{"img":"/Preparation_Equipment/Potato_Peeler_(Electric).jpg","name":"Potato Peeler (Electric).jpg ","alt":"Potato Peeler (Electric).jpg ","cap":"5 to 50 kg"},{"img":"/Preparation_Equipment/Tilting_Wet_Grinder_(Electric).jpg","name":"Tilting Wet Grinder (Electric).jpg ","alt":"Tilting Wet Grinder (Electric).jpg ","cap":"5 to 30 Ltr"}]
+[
+    {
+        "img": "Images/Cooking_Equipment/4_Burner_Range_With_Oven.jpg",
+        
+        "name": "4 Burner Range With Oven.jpg ",
+        "alt": "4 Burner Range With Oven.jpg ",
+        "size": "Customized"
+    },
+    {
+        "img": "Images/Cooking_Equipment/Chapati_Plate_With_Puffer.jpg",
+        "name": "Chapati Plate With Puffer.jpg ",
+        "alt": "Chapati Plate With Puffer.jpg ",
+        "size": "Customized"
+    },
+    {
+        "img": "Images/Cooking_Equipment/County_Grill_(griddle Plate).jpg",
+        "name": "County Grill (griddle Plate).jpg ",
+        "alt": "County Grill (griddle Plate).jpg ",
+        "size": "Customized"
+    },
+    {
+        "img": "Images/Cooking_Equipment/Dosa_Plate.jpg",
+        "name": "Dosa Plate.jpg ",
+        "alt": "Dosa Plate.jpg ",
+        "size": "Customized"
+    },
+    {
+        "img": "Images/Cooking_Equipment/Single_Burner_Range.jpg",
+        "name": "Single Burner Range.jpg ",
+        "alt": "Single Burner Range.jpg ",
+        "size": "Customized"
+    },
+    {
+        "img": "Images/Cooking_Equipment/Three_Burner_Chinese_Range.jpg",
+        "name": "Three Burner Chinese Range.jpg ",
+        "alt": "Three Burner Chinese Range.jpg ",
+        "size": "Customized"
+    },
+    {
+        "img": "Images/Cooking_Equipment/Three_Burner_Range.jpg",
+        "name": "Three Burner Range.jpg ",
+        "alt": "Three Burner Range.jpg ",
+        "size": "Customized"
+    },
+    {
+        "img": "Images/Cooking_Equipment/Tilting_Brazing_Pan.jpg",
+        "name": "Tilting Brazing Pan.jpg ",
+        "alt": "Tilting Brazing Pan.jpg ",
+        "cap": "50 To 200 Ltr"
+    },
+    {
+        "img": "Images/Preparation_Equipment/Bone_Swa_(Electric).jpg",
+        "name": "Bone Swa (Electric).jpg ",
+        "alt": "Bone Swa (Electric).jpg ",
+        "blade": "16/20 mm"
+    },
+    {
+        "img": "Images/Preparation_Equipment/Dough_Kneader_(Electric).jpg",
+        "name": "Dough Kneader (Electric).jpg ",
+        "alt": "Dough Kneader (Electric).jpg ",
+        "cap": "5 to 100 ltr"
+    },
+    {
+        "img": "Images/Preparation_Equipment/Meat_Mincer_(Electric).jpg",
+        "name": "Meat Mincer (Electric).jpg ",
+        "alt": "Meat Mincer (Electric).jpg ",
+        "cap": "20 to 150 kg. / hr."
+    },
+    {
+        "img": "Images/Preparation_Equipment/Potato_Peeler_(Electric).jpg",
+        "name": "Potato Peeler (Electric).jpg ",
+        "alt": "Potato Peeler (Electric).jpg ",
+        "cap": "5 to 50 kg"
+    },
+    {
+        "img": "Images/Preparation_Equipment/Tilting_Wet_Grinder_(Electric).jpg",
+        "name": "Tilting Wet Grinder (Electric).jpg ",
+        "alt": "Tilting Wet Grinder (Electric).jpg ",
+        "cap": "5 to 30 Ltr"
+    }
+]
