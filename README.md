@@ -1,4 +1,4 @@
-Riddhi Display Frontend
+Darsh Manufacturing Frontend
 
 Running the Application
 
