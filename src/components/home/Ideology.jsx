@@ -5,9 +5,9 @@ import solution from '../../assets/Imageslist/solution.png'
 import work from '../../assets/Imageslist/t-work.png'
 
 const Ideology = () => {
-  return (
-    <div>
-        <div className='py-10 my-5 w-full bg-[url("src/assets/Imageslist-1/ideology-left.png")]'>
+    return (
+        <div>
+            <div className='py-10 my-5 w-full bg-[url("/src/assets/Imageslist-1/ideology-left.png")]'>
                 <h1 className='text-5xl font-bold text-gray-800 tracking-wide text-center'>Our Core Ideology</h1>
                 <p className='text-gray-800 tracking-wide text-center mb-20'>To enable the customer's growth with Innovative Solution for success maximization</p>
 
@@ -42,8 +42,8 @@ const Ideology = () => {
                     </div>
                 </div>
             </div>
-    </div>
-  )
+        </div>
+    )
 }
 
 export default Ideology

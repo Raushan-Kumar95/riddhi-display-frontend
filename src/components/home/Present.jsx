@@ -9,7 +9,7 @@ import mumbai from '../../assets/Imageslist/mumbai.jpg'
 const Present = () => {
     return (
         <div>
-            <div className='py-20 my-10 w-full bg-[url("src/assets/Imageslist-1/present-bg.jpg")]'>
+            <div className='py-20 my-10 w-full bg-[url("/src/assets/Imageslist-1/present-bg.jpg")]'>
                 <h1 className='text-5xl font-bold text-gray-800 tracking-wide text-center mb-20'>We Are Present In</h1>
 
                 <div className='grid md:grid-cols-6 sm:grid-cols-2 grid-cols-1 gap-8 mx-16'>
