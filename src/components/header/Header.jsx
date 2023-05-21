@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState } from 'react'
+import { useState, useRef } from 'react'
 import { NavLink } from 'react-router-dom'
 import HeaderData from './HeaderData.json'
 import logo from '/Darsh_Logo.png'
@@ -22,14 +22,33 @@ const Navbar = () => {
         console.log(hamburger)
     }
 
+    const scrollRef = useRef(null);
+
+    const handleMenuClick = () => {
+        if (scrollRef.current) {
+            if (window.pageYOffset > 0) {
+                // Scroll to top if not already at the top
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            } else {
+                // Scroll to previous location if already at the top
+                scrollRef.current.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    };
+
+
+
+
+
+
     let activeClassName = "md:px-5 md:py-1 py-2 underline text-red-800"
 
 
-    
+
     return (
         <>
             {/* Header Top */}
-            <div className='bg-black text-white py-3 px-10 flex flex-row md:justify-between justify-center '>
+            <div ref={scrollRef} className='bg-black text-white py-3 px-10 flex flex-row md:justify-between justify-center '>
 
                 <div className='hidden md:block'>
                     <ul className='flex flex-row text-2xl'>
@@ -65,7 +84,7 @@ const Navbar = () => {
                     <ul className={`navmenu ${hamburger ? "h-1/2" : "h-0"} flex md:flex md:flex-row flex-col md:text-center font-semibold text-lg pb-2 text-center md:py-7`}>
                         {HeaderData.map(nav => {
                             return (
-                                <NavLink to={nav.link} onClick={handleHamClick} className={({ isActive }) =>
+                                <NavLink key={nav.link} to={nav.link} onClick={() => { handleHamClick(); handleMenuClick(); }} className={({ isActive }) =>
                                     isActive ? activeClassName : "md:px-5 md:py-1 py-2"
                                 }>
                                     <a href={nav.link}>{nav.name}</a>
